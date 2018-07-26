@@ -72,6 +72,10 @@ nav ul{
 }
 
 /*adjustments*/
+
+.no-under{
+    text-decoration: none;
+}
 .close-lines{
     line-height: 70%;
 }
