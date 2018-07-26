@@ -74,7 +74,7 @@ nav ul{
 /*adjustments*/
 
 .no-under{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .close-lines{
     line-height: 70%;
@@ -192,6 +192,13 @@ white-space:pre;
     margin: 6% 1% 2% 1%;
 }
 
+  /*About page*/
+  .my-image{
+    width:95%; 
+    transform:rotate(-5deg); 
+    margin-left:5%;
+}
+
 @media only screen and (max-width: 740px) {
 
     .home-top{
@@ -218,7 +225,14 @@ white-space:pre;
         padding-top: 2%;
     
     }
-    
+
+    /*About page*/
+    .my-image{
+        position:relative;
+        width:60%; 
+        transform:rotate(-5deg); 
+        margin:5% auto 5% 15%;
+    }
 
 }
 
